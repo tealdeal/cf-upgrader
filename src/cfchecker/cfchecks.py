@@ -179,7 +179,12 @@ vn1_5 = CFVersion((1, 5))
 vn1_6 = CFVersion((1, 6))
 vn1_7 = CFVersion((1, 7))
 vn1_8 = CFVersion((1, 8))
-cfVersions = [vn1_0, vn1_1, vn1_2, vn1_3, vn1_4, vn1_5, vn1_6, vn1_7, vn1_8]
+#updates below to CF 1.12
+vn1_9  = CFVersion((1, 9))
+vn1_10 = CFVersion((1, 10))
+vn1_11 = CFVersion((1, 11))
+vn1_12 = CFVersion((1, 12))
+cfVersions = [vn1_0, vn1_1, vn1_2, vn1_3, vn1_4, vn1_5, vn1_6, vn1_7, vn1_8, vn1_9, vn1_10, vn1_11, vn1_12]
 newest_version = max(cfVersions)
 
 
